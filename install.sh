@@ -28,7 +28,7 @@ set -e
 #                                                                           #
 #############################################################################
 
-SCRIPT_VERSION="v0.8.1"
+SCRIPT_VERSION="v0.9.0"
 GITHUB_BASE_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer"
 
 LOG_PATH="/var/log/pterodactyl-installer.log"
@@ -102,7 +102,7 @@ while [ "$done" == false ]; do
 
     "Install panel with canary version of the script (the versions that lives in master, may be broken!)"
     "Install Wings with canary version of the script (the versions that lives in master, may be broken!)"
-    "Install both [5] and [6] on the same machine (wings script runs after panel)"
+    "Install both [6] and [7] on the same machine (wings script runs after panel)"
   )
 
   actions=(
